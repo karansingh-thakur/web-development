@@ -1,0 +1,89 @@
+.navbar{
+    background-color: rgb(248, 236, 236);
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+#essa1{
+    float: left;
+    color: rgb(4, 161, 31);
+    font: 130% bold;
+}
+.navbar li a:hover{
+    color: red
+}
+#logoimg{
+    /* height: auto; */
+    /* width: 10%; */
+    padding: 2% 44%;
+}
+#logoname{
+    color: #007bff;
+    font-family: "Poppins", sans-serif;;
+    padding: 0% 31.5%;  
+    font-weight: 600;
+    font-size: 170%;
+}
+.below_logo{
+    /* border: 3px solid grey; */
+    /* margin: 12px 3px; */
+    padding: 12px 3px;
+    background: rgb(252, 248, 248); */
+}
+
+#Who_We_Are {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    height: auto;
+    font-family: "Poppins", sans-serif;;
+
+}
+#What_We_Do {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    height: auto;
+    font-family: "Poppins", sans-serif;;
+
+}
+#Our_Vision {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    height: auto;
+    font-family: "Poppins", sans-serif;;
+
+}
+#Who_We_Are_img {
+float: left;
+padding: 2%;
+}
+
+#What_We_Do_img {
+float: left;
+padding: 2%;
+}
+
+#Our_Vision_img {
+float: left;
+padding: 2%;
+}
+
+#secondpara{
+    padding-left: 15%;
+    padding-top: 2%;
+}

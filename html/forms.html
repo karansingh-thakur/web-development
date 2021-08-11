@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="name">Name :</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+
+        <div>Gender :Male<input type="radio" name="mygender">Female <input type="radio" name="mygender">Other <input
+                type="radio" name="mygender"></div>
+        <br>
+
+
+        <div><label for="eligibility">Are you eligible ? </label>
+            <input type="checkbox" name="myeligibility" id="eligibility">
+        </div>
+        <br>
+
+
+
+        <label for="roll no.">Roll no.:</label>
+        <div>
+            <input type="text" name="myroll" id="roll no.">
+        </div>
+
+        <br>
+        <label for="class">Class</label>
+            <div>
+                <select name="myclass" id="class">
+                    <option value="u1">U1</option>
+                    <option value="u2">U2</option>
+                    <option value="2u1">2U1</option>
+                    <option value="2u2">2U2</option>
+                    <option value="3u1">3U1</option>
+                    <option value="3u2">3U2</option>
+            </select>
+        </div>
+            <br>
+        <label for="sem">Select sem. :</label>
+        <div>
+            <input type="number" name="mysem" id="sem">
+        </div>
+        <br>
+        <label for="date">Date :</label>
+        <br>
+        <div>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <label for="about">About yourself</label>
+    <div>
+        <textarea name="myinformation" id="about" cols="30" rows="10">Write here</textarea>
+    </div>
+
+    </form>
+</body>
+
+</html>
